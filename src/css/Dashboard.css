@@ -1,0 +1,152 @@
+/* Sidebar Styles */
+.col-md-2 {
+    background-color: #FFF4E6;
+    min-height: 100vh;
+}
+
+.logo {
+    margin-top: 19px;
+    margin-left: 16px;
+}
+
+.logo img {
+    height: 20px;
+    width: 130px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+/* SVG Icon styles */
+.nav-item .nav-link .nav-icon {
+    width: 20px; /* Adjust the size of the icon */
+    height: 20px;
+    transition: all 0.3s ease;
+}
+
+/* General Link Style */
+.nav-item .nav-link {
+    display: block;
+    color: #333;
+    padding: 0.5rem 1rem;
+    margin-left: -10px;
+    width: calc(100% + 20px);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Active link style */
+.nav-item .nav-link.active {
+    font-weight: 400;
+    color: #FF9500;
+    background-color: #FFF4E6;
+    border-right: 3px solid #FF9500;
+}
+
+/* Hover effect for all links */
+.nav-item .nav-link:hover {
+    font-weight: 400;
+    color: #FF9500;
+    background-color: #FFF4E6;
+}
+
+/* Icon color change for active and hover states */
+.nav-item .nav-link.active .nav-icon,
+.nav-item .nav-link:hover .nav-icon {
+    filter: hue-rotate(0deg) saturate(200%) brightness(100%); 
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.nav-item .nav-link .nav-icon {
+    filter: grayscale(100%); /* Default icon color */
+}
+
+/* Main Content */
+.col-md-10 {
+    padding: 0;
+}
+
+header {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: end;
+}
+
+.user-icon {
+    font-size: 1.5rem;
+}
+
+/* Stats Cards */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.card p {
+    margin: 0;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+}
+
+/* Chart Section */
+.card .d-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .d-flex span {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Add this to your Dashboard.css */
+.chart-container {
+    width: 100%;   /* Full width of its parent container */
+    height: 400px; /* Fixed height */
+  }
+  
+  .mar{
+    margin-left: 40px !important;
+  }
+
+
+  .position{
+    position: relative;
+    right: 0;
+    top: 45px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 8px;
+    width: 55px;
+    text-align: center;
+    padding: 4px 8px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   
+  }

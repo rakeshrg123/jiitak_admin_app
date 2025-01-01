@@ -1,0 +1,22 @@
+.dropdown-menu {
+    min-width: 180px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dropdown-item {
+    font-size: 14px;
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+
+  .dropdown-item:hover{
+    background-color: #FFF4E6;
+    font-weight: 500;
+  }
+  
+  .dropdown-item i {
+    font-size: 16px;
+  }
+  

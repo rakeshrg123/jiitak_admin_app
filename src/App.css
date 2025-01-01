@@ -1,0 +1,156 @@
+/* App.css */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  background:   #F8F5F0;
+  overflow: hidden;
+ 
+  
+}
+
+.start{
+  align-items: normal !important;
+}
+
+.heading{
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  margin-bottom: 40px !important;
+}
+
+.color{
+  background:  #F8F5F0 !important;
+  border-bottom: 1px solid #DFDAD4;
+
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 10px;
+
+}
+
+.fp{
+  width: 400px;
+  height: 48px;
+  margin-top: 15px ;
+  padding: 0 117px 0 117px ;
+  gap: 10px;
+
+}
+
+.link{
+  width: 170px;
+  margin-top: 30px !important;
+  height: 48px !important;
+  font-weight: 600;
+  font-size: 13px !important;
+  text-align: center;
+  line-height: 24px !important;
+  color: #291C0A;
+  text-decoration: none;
+  letter-spacing: 0.15px !important;
+}
+
+.text{
+  font-size: 12px;
+  font-weight: 600 !important;
+}
+.Field{
+  width: 100%;
+  height: 48px;
+  font-weight: 400;
+  margin-top: -8px;
+  border-radius: 8px;
+  border: 1px solid #DFDAD4;
+}
+
+.btn-orange {
+  background-color: #FF9500 !important; /* Ensure the background color applies */
+  color: #fff !important; /* Ensure the text color applies */
+  font-weight: 500;
+  width: 100%;
+  height: 48px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.btn-orange:hover {
+  background-color: #FF9500 !important; 
+  color: #fff !important;
+  opacity: 0.8; 
+}
+
+.btn-orange:disabled {
+  background-color: #FF9500 !important; 
+  opacity: 0.5; 
+  cursor: not-allowed; 
+}
+
+.btn-orange:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 102, 0, 0.5); 
+}
+
+
+.form-control:focus {
+  border-color: #ff6600;
+  box-shadow: 0 0 5px rgba(255, 102, 0, 0.5);
+}
+
+
+.Field:hover {
+  border-color: #ff6600;
+  box-shadow: 0 0 5px rgba(255, 102, 0, 0.5);
+}
+
+
+
+/* Remove Bootstrap's default invalid feedback icon */
+.is-invalid {
+  background-image: none !important; /* Remove the error icon */
+  border: 2px solid red !important; /* Ensure the red border remains */
+  background-color: transparent !important; /* Remove background color */
+  padding-right: 0 !important; /* Adjust padding if necessary */
+}
+
+/* Optional: Keep consistent focus behavior */
+.is-invalid:focus {
+  box-shadow: none !important; /* Remove shadow on focus */
+}
+
+.custom-toast {
+  width : 400px;
+height: Fixed (48px);
+  font-size: 13px; /* Adjust the font size as needed */
+  font-weight: 600; /* Optional: Change font weight */
+  color: #291C0A; /* Optional: Change text color */
+}
+
+.password-field {
+
+  font-weight: 500;
+  font-size: 1.5rem;  /* Increase the size of the bullet points */
+}
+
+
+.pading{
+  padding-top: 100px !important;
+}
+
+.App{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #F8F5F0;
+}
+
+.image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
